@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+
+header, footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+  background: #275E6D;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu-lista {
+  display: flex;
+  gap: 20px;
+}
+
+
+.menu-hamburguesa {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.barra {
+  width: 30px;
+  height: 4px;
+  background-color: white;
+}
+
+  .nombre {
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5em;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    font-size: 1.5em;
+  }
+  
+  nav ul li a:hover {
+    color: #16363D;}
+
+
+.menu-checkbox {
+    display: none;
+}
+
+/* ///////////////////////////// HERO /////////////////////////////////////////////// */
+    .hero {
+        padding: 2em;
+        background-color: #16363D;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .hero-content {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        width: 100%;
+        gap: 2em;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .hero-image {
+        width: 400px;
+        max-width: 100%;
+      }
+      
+      .hero-text {
+        max-width: 500px;
+        color: white;
+      }
+      
+      h1 {
+        font-size: 3em;
+        margin-bottom: 0.5em;
+      }
+      
+      .hero-text p {
+        font-size: 1.2em;
+        line-height: 1.4;
+      }
+
+      .hero-text p strong{
+        font-size: 1.4em;
+      }
+
+      .portfolio{
+        padding: 1em;
+      }
+
+      h2{
+        font-size: 2.5em;
+        text-align: center;
+        color: #16363D;
+      }
+
+      .portfolio p{
+        text-align: center;
+        color: #16363D;
+      }
+      
+      .area-header {
+        display: flex;        
+        align-items: center;
+        justify-content: center; 
+        cursor: pointer;
+      }
+
+      /* ///////////////////////////// EDITORIAL /////////////////////////////////////////////// */
+      
+      .area-editorial {
+        background-color: #99263A;
+        height: 160px;
+      }
+
+      .area-editorial img{
+        width: 150px;
+      }
+
+      .video-text-container {
+        background-color: #C4C9D0;
+        color: #4D5B77;
+      }
+
+      .video-description, .gif-description, .mate-texto, .tipo-texto, .publicidad-texto, .prototipado-texto, .abstraccion-texto{
+        font-size: 1em;
+        line-height: 1.4;
+        width: 400px;
+      }
+      
+      .video-container{
+        display: flex;
+        justify-content: center;
+      }
+      
+      .video-container video{
+        max-width: 80%;
+        height: auto;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+      }
+
+      .video-text-container, .gif-text-container, .tipo-content, .prototipado, .abstraccion, .mate{
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        padding: 3em;
+        gap: 2em;
+      }
+
+      .gif-container img {
+        width: 120%;
+      }
+
+      .gif-description{
+        color: #A5A5A5;
+      }
+
+      /* ///////////////////////////// IDENTIDAD /////////////////////////////////////////////// */
+
+      .area-identidad {
+        background-color: #1C5957;
+        height: 180px;
+      }
+
+    .area-identidad img{
+        width: 150px;
+    }
+
+    .mate{
+        background-color: #D8E0A2;
+    }
+
+    .mate img{
+        width: 90%;
+    }
+
+     /* ///////////////////////////// EXPERIMENTAL /////////////////////////////////////////////// */
+
+      .area-experimental {
+        background-color: #965500;
+        height: 160px;
+        color: #8d906a;
+      }
+
+      .area-experimental img{
+        width: 230px;
+      }
+
+      .tipo-content{
+        background-color: #E5E3DF;
+        color: #7F7D79;
+      }
+
+      .tipo-mockup img{
+        width: 100%;
+      }
+
+      .tipo-gif img{
+        width: 500px;
+      }
+
+      .abstraccion{
+        background-color: #5FAEBC;
+        padding: 3em;
+        justify-content: center;
+        gap: 5em;
+        color: #00536C;
+    }
+
+    .abstraccion-gif img{
+        width: 600px;
+        box-shadow: 0 4px 6px rgba(0,0,0,00.3);
+    }
+
+      /* ///////////////////////////// WEB Y REDES /////////////////////////////////////////////// */
+
+      .area-web {
+        background-color: #17254C;
+        height: 160px;
+      }
+
+      .area-web img{
+        width: 180px;
+      }
+
+    .publicidad video{
+        max-width: 80%;
+        height: auto;
+    }
+
+    .publicidad{
+        background-color: #66A9AB;
+        padding: 3em;
+        color: #3D6666;
+    }
+
+    .publicidad-videos{
+        display: flex;
+        justify-content: center;
+        gap: 1.5em;
+        padding: 3em;
+        align-items: end;
+    }
+
+    .publicidad video{
+        max-width: 53%;
+        height: auto;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    .publicidad-video-mobile{
+        display: none;
+    }
+
+    .prototipado{
+        background-color: #F3A1A0;
+        padding: 3em;
+        justify-content: center;
+        gap: 5em;
+        color: #996767;
+    }
+
+    .prototipado-video video{
+        border-radius: 46px;
+        width: 300px;
+        box-shadow: 0 4px 6px rgba(0,0,0,00.3);
+    }
+
+    /* ///////////////////////////// FOOTER /////////////////////////////////////////////// */
+    footer img{
+        width: 50px;
+    }
+
+    footer img:hover{
+        width: 52px;
+    }
+
+    footer{
+        justify-content: center;
+        gap: 2em;
+    }
+
+    /* ///////////////////////////// TABLET /////////////////////////////////////////////// */
+
+    @media all and (max-width:768px){
+      .nombre{
+        font-size: 1.5em;
+      }
+
+      nav ul li a {
+        font-size: 1em;
+      }
+
+        .hero-image {
+            width: 200px;
+            max-width: 100%;
+          }
+          
+          .hero-text {
+            max-width: 300px;
+          }
+          
+         h1 {
+            font-size: 2em;
+            margin-bottom: 0.3em;
+          }
+          
+          .hero-text p {
+            font-size: 0.7em;
+            line-height: 1.4;
+          }
+
+          .portfolio h2{
+            font-size: 2em;
+          }
+
+          .portfolio p{
+            font-size: 0.8em;
+          }
+
+          .area-editorial, .area-identidad, .area-experimental, .area-web {
+            height: 120px;
+          }
+
+          .area-editorial img, .area-identidad img{
+            width: 100px;
+          }
+
+          .area-experimental img{
+            width: 170px;
+          }
+
+          .area-web img{
+            width: 130px;
+          }
+
+          h3{
+            font-size: 0.9em;
+          }
+
+          p{
+            font-size: 0.5em;
+          }
+
+          .tipo-content{
+            display: block;
+          }
+
+          .tipo-mockup img{
+            width: 100%;
+          }
+
+          .tipo-gif img{
+            width: 200px;
+          }
+
+          .abstraccion-gif img{
+            width: 250px;
+          }
+
+          .publicidad-videos{
+            display: block;
+          }
+
+          .publicidad-videos video{
+            max-width: 100%;
+          }
+
+          .prototipado-video video{
+            width: 200px;
+            border-radius: 33px;
+          }
+          
+          footer img{
+            width: 35px;
+        }
+
+        }
+
+         /* ///////////////////////////// MOBILE /////////////////////////////////////////////// */
+
+         @media screen and (max-width: 430px) {    
+          .menu-lista {
+            display: none;
+        }
+    
+        .menu-hamburguesa {
+            display: flex;
+        }
+    
+        .menu-checkbox:checked + .menu-hamburguesa + .menu-lista {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 60px;
+            right: 20px;
+            background-color: #275E6D ;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 10px 20px;
+        }
+
+            h1{
+                font-size: 1.5em;
+            }
+
+            .portfolio h2{
+              font-size: 1.6em;
+            }
+
+            .portfolio p{
+              font-size: 0.7em;
+            }
+
+            .hero-text p {
+                font-size: 0.6em;
+                line-height: 1.4;
+              }
+
+        
+            .menu-toggle, .menu-checkbox:checked ~ nav .menu {
+                display: flex;
+            }
+
+            .area-editorial, .area-identidad, .area-experimental, .area-web {
+                height: 80px;
+              }
+
+              .video-description, .gif-description, .mate-texto, .tipo-texto, .publicidad-texto, .prototipado-texto, .abstraccion-texto{
+                max-width: 200px;
+              }
+    
+              .area-editorial img, .area-identidad img{
+                width: 70px;
+              }
+    
+              .area-experimental img{
+                width: 100px;
+              }
+    
+              .area-web img{
+                width: 90px;
+              }
+    
+              h3{
+                font-size: 0.7em;
+              }
+    
+              p{
+                font-size: 0.6em;
+              }
+
+              .video-text-container{
+                flex-wrap: wrap-reverse;
+
+              }
+
+            .gif-text-container, .prototipado, .abstraccion, .mate, .publicidad-video-mobile{
+                display: block;
+              }
+
+              .tipo-mockup img{
+                width: 120%;
+              }
+    
+            .abstraccion-gif img, .prototipado-video video{
+                width: 100%;
+                margin-bottom: 0.5em;
+              }
+
+              .publicidad video{
+                max-width: 100%;
+                margin-bottom: 0.5em;
+              }
+
+              .prototipado-video video{
+                border-radius: 35px;
+              }
+
+            .publicidad-videos{
+                display: none;
+            }
+
+              footer img{
+                width: 30px;
+            }
+
+          }
+        
+

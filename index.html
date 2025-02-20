@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Web Carla Esquviel</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="nombre">Carla Esquivel</div>
+    <nav class="menu">
+        <input type="checkbox" id="hamburguesa" class="menu-checkbox">
+        <label for="hamburguesa" class="menu-hamburguesa">
+            <span class="barra"></span>
+            <span class="barra"></span>
+            <span class="barra"></span>
+        </label>
+        <ul class="menu-lista">
+            <li><a href="#hero">Sobre mí</a></li>
+            <li><a href="#portfolio">Portafolio</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+  </header>
+
+      <section id="hero" class="hero">
+        <div class="hero-content">
+          <img src="img/foto+forma.png" alt="Foto de Carla" class="hero-image">
+    
+          <div class="hero-text">
+            <h1>¡HOLA!</h1>
+            <p>
+              Soy Carla Esquivel, estudiante de Diseño Gráfico.
+              Veo al diseño como una herramienta para
+              <strong>conectar, emocionar e inspirar.</strong>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio">
+        <div class="portfolio">
+        <h2>Mi Portafolio</h2>
+        <p>
+          Selecciona una categoría para ver más detalles.
+        </p>
+        </div>
+
+            <details class="area">
+                <summary class="area-header area-editorial">
+                  <img src="img/editorial.png" alt="Editorial">
+                </summary>
+                <div class="area-content area-editorial-content">
+                  <div class="video-text-container">
+                    <div class="video-description">
+                        <h3>
+                            Revista
+                        </h3>
+                      <p>
+                        Diseño de portada y diagramación del contenido para una revista sobre la Cordillera de loa Andes, Chile.
+                      </p>
+                    </div>
+
+                    <div class="video-container">
+                      <video controls>
+                        <source src="videos/revista.mp4" type="video/mp4">           
+                      </video>
+                    </div>
+                  </div>
+
+                  <div class="gif-text-container">
+                        <div class="gif-container">
+                            <img src="videos/cubiertas.gif" alt="cubiertas">
+                          </div>
+
+                     <div class="gif-description">
+                        <h3>
+                            Cubiertas
+                        </h3>
+                      <p>
+                        Diseño de cubiertas para una colección de 5 fasículos de Juan Carlos Onetti.
+                    </p>
+                    </div>
+                </div>
+              </div>
+            </details>
+
+
+          <details class="area">
+            <summary class="area-header area-identidad">
+              <img src="img/identidad.png" alt="Identidad">
+            </summary>
+
+            <div class="area-content">
+                <div class="mate">
+                    <div>
+                    <img src="videos/mate.gif" alt="Logo mate">
+                    </div>
+
+                    <div class="mate-texto">
+                        <h3>Mate</h3>
+                        <p>Diseño de identidad para un estudio de diseño ficticio. Trabajo relizado con Giulietta Benedetto y Burno Giorgi.</p>
+                    </div>
+                </div>
+            </div>
+          </details>
+
+          <details class="area">
+            <summary class="area-header area-experimental">
+              <img src="img/experimental.png" alt="Experimental">
+            </summary>
+
+            <div class="area-content">
+                <div class="tipo-content">
+                
+                <div class="tipo-gif">
+                    <img src="videos/carplay.gif" alt="Carplay">
+                  <div class="tipo-texto">
+                    <h3>Tipografía</h3>
+                    <p>Diseño de tipgorafía Carplay para packaging de artículos de niños.</p>
+                  </div>
+                </div>
+
+                <div class="tipo-mockup">
+                    <img src="img/mockupbolsa.png" alt="Mockup">
+                </div>
+            </div>
+
+            <div class="abstraccion">
+                <div class="abstraccion-gif">
+                    <img src="videos/abtraccion.gif" alt="Proceso abstracción">
+                </div>
+
+                <div class="abstraccion-texto">
+                    <h3>Abstracción</h3>
+                    <p>Proceso de abstracción en base a una composición representativa del género Soul.</p>
+                </div>
+            </div>
+            </div>
+          </details>
+
+          <details class="area">
+            <summary class="area-header area-web">
+              <img src="img/webyredes.png" alt="Web y Redes">
+            </summary>
+
+            <div class="area-content">
+              <div class="publicidad">
+                <div class="publicidad-videos">
+                  <video controls>
+                    <source src="videos/publi1.mp4" type="video/mp4">           
+                  </video>
+
+                  <video controls>
+                    <source src="videos/publi2.mp4" type="video/mp4">           
+                  </video>
+                </div>
+
+                <div class="publicidad-video-mobile">
+                <video controls>
+                    <source src="videos/publi3.mp4" type="video/mp4">           
+                  </video>
+
+                  <video controls>
+                    <source src="videos/publi4.mp4" type="video/mp4">           
+                  </video>
+                </div>
+            
+                <div class="publicidad-texto">
+                <h3>Publicidad</h3>
+                <p>Campaña audiovisual de un producto, servicio a elección.</p>
+                </div>
+             </div>
+
+            <div class="prototipado">
+                <div class="prototipado-video">
+                    <video controls>
+                        <source src="videos/page.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="prototipado-texto">
+                    <h3>Prototipado de página web</h3>
+                    <p>Prototipado de una página web para una empresa ficticia. El logo fue creado en otra materia junto a Josefina Albanell.</p>
+                </div>
+            </div>
+          </div>
+          </details>
+      </section>
+
+      <footer id="contacto">
+        <nav>
+            <ul>
+                <li>
+                    <a href="https://www.behance.net/carlaesquivel2">
+                      <img src="img/behance.png" alt="logo behance">
+                    </a>
+                </li>
+
+                <li>
+                <a href="https://www.instagram.com/caarr.design/">
+                <img src="img/instagram.png" alt="logo instagram">
+                </a>
+                </li>
+            </ul>
+          </nav>
+      </footer>
+</body>
+</html>
