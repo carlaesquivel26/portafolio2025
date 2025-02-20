@@ -406,7 +406,7 @@ header, footer{
 
          /* ///////////////////////////// MOBILE /////////////////////////////////////////////// */
 
-         @media screen and (max-width: 500px) {    
+         @media screen and (max-width: 425px) {    
           .menu-lista {
             display: none;
         }
